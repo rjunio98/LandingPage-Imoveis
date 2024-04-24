@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import FeaturedProperties from "@/components/FeaturedProperties";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
@@ -13,6 +14,7 @@ const Home = () => {
       <HowItWorks />
       <FeaturedProperties />
       <Services />
+      <AboutUs />
     </>
   );
 };
