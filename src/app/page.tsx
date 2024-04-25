@@ -1,6 +1,7 @@
 import AboutUs from "@/components/AboutUs";
 import { Faq } from "@/components/Faq";
 import FeaturedProperties from "@/components/FeaturedProperties";
+import { Footer } from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar";
@@ -19,6 +20,7 @@ const Home = () => {
       <AboutUs />
       <Testimonials />
       <Faq />
+      <Footer />
     </>
   );
 };
